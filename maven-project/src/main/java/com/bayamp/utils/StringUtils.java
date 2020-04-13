@@ -5,4 +5,7 @@ public class StringUtils {
     public static String reveseString(String str) {
         return new StringBuffer(str).reverse().toString();
     }
+
+    public static String[] split(String str) {
+        return str.split(" ");
 }
